@@ -25,10 +25,22 @@ int classify(const vector<GMM> &vgmm, const fmatrix &dat, float &maxlprob) {
   int maxind  = -1;
   maxlprob = -1e38;
 
-  /// \TODO 
+  /// \HECHO
   /// Determine the highest likelihood gmm in vgmm, and assign its index to maxind.
-  maxind = 0;
+  //for each gmm, call logprob. Implement this function in gmm.cpp
+	//vgmm = vector de gmm (uno por locutor a reconocer)
+	//recorrerlo y calcular para todos ellos la prob
+	float temp = vgmm[0].logprob(dat);
+	maxind = 0;
+	for(int i = 0; i<vgmm.size(); i++){
+		if(vgmm[i].logprob(dat)>temp){
+			temp = vgmm[i].logprob(dat);
+			maxind = i;
+		}
 
+	}
+	maxlprob = temp;
+  //maxind = 0;
 
   return maxind;
 }
