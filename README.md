@@ -57,12 +57,12 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
 - Inserte una imagen mostrando la dependencia entre los coeficientes 2 y 3 de las tres parametrizaciones
   para una señal de prueba.
   
- *LPC*  
-   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LP.PNG" width="640" align="center">
- *LPCC*  
-   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LPCC.PNG" width="640" align="center">
- *MFCC*  
-   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/MFCC.PNG" width="640" align="center">
+# *LPC*  
+   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LP.PNG" width="320" align="center">
+# *LPCC*  
+   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LPCC.PNG" width="320" align="center">
+# *MFCC*  
+   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/MFCC.PNG" width="320" align="center">
   
   *La imagen siguiente es un ejemplo de cómo insertar imágenes en markdown*
   
