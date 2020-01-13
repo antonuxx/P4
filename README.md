@@ -60,7 +60,7 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
  *LPC*  
    <img src="LP.PNG" width="640" align="center">
  *LPCC*  
-   <img src="LPCC.PNG" width="640" align="center">
+   <img src="images/LPCC.PNG" width="640" align="center">
  *MFCC*  
    <img src="MFCC.PNG" width="640" align="center">
   
