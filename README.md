@@ -83,8 +83,8 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
 
   |                        | LP   | LPCC | MFCC |
   |------------------------|:----:|:----:|:----:|
-  | &rho;<sub>x</sub>[2,3] |      |      |      |
-  
+  | &rho;<sub>x</sub>[2,3] |   -0.25976   |   0.09282   |   -0.21931   |
+                               -0.09977       0.08985       0.25178
   + Compare los resultados de <code>pearson</code> con los obtenidos gráficamente.
   
 ### Entrenamiento y visualización de los GMM.
