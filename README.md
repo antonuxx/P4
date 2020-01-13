@@ -58,11 +58,11 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
   para una señal de prueba.
   
  *LPC*  
-   <img src="images/LP.png" width="640" align="center">
+   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LP.PNG" width="640" align="center">
  *LPCC*  
-   <img src="images/LPCC.png" width="640" align="center">
+   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LPCC.PNG" width="640" align="center">
  *MFCC*  
-   <img src="MFCC.PNG" width="640" align="center">
+   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/MFCC.PNG" width="640" align="center">
   
   *La imagen siguiente es un ejemplo de cómo insertar imágenes en markdown*
   
