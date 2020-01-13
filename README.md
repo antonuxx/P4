@@ -98,11 +98,16 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
 - Inserte una gráfica que permita comparar los modelos y poblaciones de dos locutores distintos. Comente el
   resultado obtenido y discuta si el modelado mediante GMM permite diferenciar las señales de uno y otro.
   
+  <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/GRAFICA_GMM_2.PNG" width="320" align="center">
 
 ### Reconocimiento del locutor.
 
 - Inserte una tabla con la tasa de error obtenida en el reconocimiento de los locutores de la base de datos
   SPEECON usando su mejor sistema de reconocimiento para los parámetros LP, LPCC y MFCC.
+  
+  |                        | LP   | LPCC | MFCC |
+  |------------------------|:----:|:----:|:----:|
+  | Error rate |    |     |     |
 
 ### Verificación del locutor.
 
@@ -110,6 +115,13 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
   de verificación de SPEECON. La tabla debe incluir el umbral óptimo, el número de falsas alarmas y de
   pérdidas, y el score obtenido usando la parametrización que mejor resultado le hubiera dado en la tarea
   de reconocimiento.
+  
+  |                        | LP   | LPCC | MFCC |
+  |------------------------|:----:|:----:|:----:|
+  | Umbral óptimo |    |     |     |
+  | Falsas alarmas |    |     |     |
+  | Pérdidas |    |     |     |
+  | Score |    |     |     |
  
 ### Test final y trabajo de ampliación.
 
