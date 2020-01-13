@@ -58,11 +58,11 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
   para una señal de prueba.
   
  *LPC*  
-   <img src/images="LP.png" width="640" align="center">
+   <img src/images="LP.PNG" width="640" align="center">
  *LPCC*  
-   <img src/images="LPCC.png" width="640" align="center">
+   <img src/images="LPCC.PNG" width="640" align="center">
  *MFCC*  
-   <img src/images="MFCC.png" width="640" align="center">
+   <img src/images="MFCC.PNG" width="640" align="center">
   
   *La imagen siguiente es un ejemplo de cómo insertar imágenes en markdown*
   
@@ -90,12 +90,12 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
 - Inserte una gráfica que muestre la función de densidad de probabilidad modelada por el GMM de un locutor
   para sus dos primeros coeficientes de MFCC.
   
-  <img src/images="GRAFICA_MFCC.png" width="640" align="center">
+  <img src/images="GRAFICA_MFCC.PNG" width="640" align="center">
   
 - Inserte una gráfica que permita comparar los modelos y poblaciones de dos locutores distintos. Comente el
   resultado obtenido y discuta si el modelado mediante GMM permite diferenciar las señales de uno y otro.
   
-  <img src/images="GRAFICA_GMM.png" width="640" align="center">
+  <img src/images="GRAFICA_GMM.PNG" width="640" align="center">
 
 ### Reconocimiento del locutor.
 
