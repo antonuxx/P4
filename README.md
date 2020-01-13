@@ -56,19 +56,19 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
 
 - Inserte una imagen mostrando la dependencia entre los coeficientes 2 y 3 de las tres parametrizaciones
   para una señal de prueba.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.sh  
-# - **LPC**  
+  
+ - **LPC**  
 
    <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LP.PNG" width="320" align="center">
    
-# - **LPCC**  
+ - **LPCC**  
 
    <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LPCC.PNG" width="320" align="center">
    
-# - **MFCC**  
+ - **MFCC**  
 
    <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/MFCC.PNG" width="320" align="center">
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+   
 
   + ¿Cuál de ellas le parece que contiene más información?
   
