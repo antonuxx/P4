@@ -59,15 +59,15 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
   
  - **LPC**  
 
-   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LP.PNG" width="320" align="center">
+   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LP.PNG" width="480" align="center">
    
  - **LPCC**  
 
-   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LPCC.PNG" width="320" align="center">
+   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LPCC.PNG" width="480" align="center">
    
  - **MFCC**  
 
-   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/MFCC.PNG" width="320" align="center">
+   <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/MFCC.PNG" width="480" align="center">
    
 
   + ¿Cuál de ellas le parece que contiene más información?
@@ -93,12 +93,12 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
 - Inserte una gráfica que muestre la función de densidad de probabilidad modelada por el GMM de un locutor
   para sus dos primeros coeficientes de MFCC.
   
-  <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/GRAFICA_GMM.PNG" width="320" align="center">
+  <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/GRAFICA_GMM.PNG" width="480" align="center">
   
 - Inserte una gráfica que permita comparar los modelos y poblaciones de dos locutores distintos. Comente el
   resultado obtenido y discuta si el modelado mediante GMM permite diferenciar las señales de uno y otro.
   
-  <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/GRAFICA_GMM_2.PNG" width="320" align="center">
+  <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/GRAFICA_GMM_2.PNG" width="480" align="center">
 
 ### Reconocimiento del locutor.
 
