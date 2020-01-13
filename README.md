@@ -58,22 +58,24 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
   para una señal de prueba.
   
 - **LPC**  
+
    <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LP.PNG" width="320" align="center">
+   
 - **LPCC**  
+
    <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/LPCC.PNG" width="320" align="center">
+   
 - **MFCC**  
+
    <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/MFCC.PNG" width="320" align="center">
-  
-  *La imagen siguiente es un ejemplo de cómo insertar imágenes en markdown*
-  
-  <img src="img/tanh.png" width="640" align="center">
   
   + ¿Cuál de ellas le parece que contiene más información?
   
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.sh
 # La imagen referenciada al mfcc es la más incorrelada de las tres, como podemos observar en las
 # gráficas. Por tanto, como más incorrelada es una señal, más información contiene. En cuanto al LPCC,
-# es más incorrelado que el LPC, pero no tanto como el MFCC. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# es más incorrelado que el LPC, pero no tanto como el MFCC.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Usando el programa <code>pearson</code>, obtenga los coeficientes de correlación normalizada entre los
   parámetros 2 y 3, y rellene la tabla siguiente con los valores obtenidos.
@@ -89,12 +91,11 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
 - Inserte una gráfica que muestre la función de densidad de probabilidad modelada por el GMM de un locutor
   para sus dos primeros coeficientes de MFCC.
   
-  <img src="GRAFICA_MFCC.PNG" width="640" align="center">
+  <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/GRAFICA_GMM.PNG" width="320" align="center">
   
 - Inserte una gráfica que permita comparar los modelos y poblaciones de dos locutores distintos. Comente el
   resultado obtenido y discuta si el modelado mediante GMM permite diferenciar las señales de uno y otro.
   
-  <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/GRAFICA_GMM.PNG" width="640" align="center">
 
 ### Reconocimiento del locutor.
 
