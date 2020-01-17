@@ -98,7 +98,7 @@ sox $inputfile -t raw - dither -p12 | $X2X +sf | $FRAME -l 200 -p 40 |
 - Inserte una gráfica que permita comparar los modelos y poblaciones de dos locutores distintos. Comente el
   resultado obtenido y discuta si el modelado mediante GMM permite diferenciar las señales de uno y otro.
   
-  <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/GRAFICA_GMM_2.PNG" width="480" align="center">
+  <img src="https://github.com/antonuxx/P4/blob/villalonga-sole/src/images/GMM.jpg" width="480" align="center">
 
 ### Reconocimiento del locutor.
 
